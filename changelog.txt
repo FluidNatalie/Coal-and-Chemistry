@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2024-10-01
+  Features:
+    - Initial release. 
+    - Adds a  recipe for rocket fuel as an item (named "Refined Solid Fuel") for use in trains and other vehicles.
+    - Adds in new research which lets you create different types of fuel for all your vehicle needs.
+    - Changes how plastic works, it now has a 50% chance of outputting "Spoiled Plastic" which can be turned back into plastic with steam.
+    - Adds a new recipe for plastic which uses heavy oil instead of coal.
