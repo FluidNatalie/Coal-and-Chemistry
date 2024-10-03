@@ -1,7 +1,7 @@
 local SpoiledPlastic = {
   type = "item",
   name = "spoiled-plastic",
-  icon = "__AdvancedFuelProcessing__/graphics/Spoiled_plastic_bar.png",
+  icon = "__Coal-and-Chemistry__/graphics/Spoiled_plastic_bar.png",
   icon_size = 64, icon_mipmaps = 4,
   stack_size = 100
 }
@@ -9,7 +9,7 @@ local SpoiledPlastic = {
 local HeavyOilPlasticRecipe = {
   type = "recipe",
   name = "alternative-plastic",
-  icon = "__AdvancedFuelProcessing__/graphics/Plastic_from_Heavy_Oil.png",
+  icon = "__Coal-and-Chemistry__/graphics/Plastic_from_Heavy_Oil.png",
   icon_size = 64, icon_mipmaps = 4,
   energy_required = 0.5,
   enabled = false,
@@ -25,7 +25,7 @@ local HeavyOilPlasticRecipe = {
 local SpoiledPlasticSteamRecycling = {
   type = "recipe",
   name = "plastic-steam-recycling",
-  icon = "__AdvancedFuelProcessing__/graphics/Plastic_recycling_icon.png",
+  icon = "__Coal-and-Chemistry__/graphics/Plastic_recycling_icon.png",
   icon_size = 64, icon_mipmaps = 4,
   energy_required = 5,
   enabled = false,
@@ -40,7 +40,7 @@ local SpoiledPlasticSteamRecycling = {
 local SpoiledPlasticAcidRecycling = {
   type = "recipe",
   name = "plastic-acid-recycling",
-  icon = "__AdvancedFuelProcessing__/graphics/Plastic_acid_recycling.png",
+  icon = "__Coal-and-Chemistry__/graphics/Plastic_acid_recycling.png",
   icon_size = 64, icon_mipmaps = 4,
   energy_required = 5,
   enabled = false,
