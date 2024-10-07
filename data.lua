@@ -47,8 +47,8 @@ local SpoiledPlasticAcidRecycling = {
   category = "chemistry",
   ingredients = {{type = "fluid", name = "sulfuric-acid", amount = 10}, {name = "spoiled-plastic", amount = 1}},
   results = {
-    {type = "item", name = "plastic-bar", amount = 1, probability = 0.3},
-    {type = "item", name = "spoiled-plastic", amount = 1, probability = 0.7}
+    {type = "item", name = "plastic-bar", amount = 1, probability = 0.7},
+    {type = "item", name = "spoiled-plastic", amount = 1, probability = 0.3}
   },
   main_product = "plastic-bar"
 }
