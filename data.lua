@@ -37,6 +37,7 @@ local SpoiledPlasticSteamRecycling = {
   },
   main_product = "plastic-bar"
 }
+
 local SpoiledPlasticAcidRecycling = {
   type = "recipe",
   name = "plastic-acid-recycling",
@@ -53,6 +54,31 @@ local SpoiledPlasticAcidRecycling = {
   main_product = "plastic-bar"
 }
 
+local HydrogenPeroxide = {
+  type = "fluid", 
+  name = "hydrogen-peroxide",
+  default_temperature = 20,
+  base_color = { r = 66, g = 135, b = 245}, flow_color = { r = 66, g = 135, b = 245 },
+  icon = "__Coal-and-Chemistry__/graphics/Hydrogen_Peroxide.png",
+  icon_size = 64, icon_mipmaps = 4
+}
+
+local Monomethylhydrazine = {
+  type = "fluid",
+  name = "Monomethylhydrazine",
+  default_temperature = 20,
+  base_color = {1, 1, 1}, flow_color = {1, 1, 1},
+  icon = "__Coal-and-Chemistry__/graphics/Monomethylhydrazine.png",
+  icon_size = 64, icon_mipmaps = 4
+}
+
+local withOxygen = {
+  type = "recipe-category",
+  name = "withOxygen"
+}
+
+--local Oxidizer = {}
+
 table.insert(data.raw.technology["plastics"].effects,{type = "unlock-recipe",recipe = "alternative-plastic"})
 table.insert(data.raw.technology["plastics"].effects,{type = "unlock-recipe",recipe = "plastic-steam-recycling"})
 table.insert(data.raw.technology["plastics"].effects,{type = "unlock-recipe",recipe = "plastic-acid-recycling"})
@@ -61,4 +87,4 @@ data.raw["recipe"]["plastic-bar"].results = {{type = "item", name = "plastic-bar
 data.raw["recipe"]["plastic-bar"].main_product = "plastic-bar"
 
 
-data:extend{SpoiledPlastic, HeavyOilPlasticRecipe, SpoiledPlasticSteamRecycling, SpoiledPlasticAcidRecycling}
+data:extend{SpoiledPlastic, HeavyOilPlasticRecipe, SpoiledPlasticSteamRecycling, SpoiledPlasticAcidRecycling, HydrogenPeroxide, Monomethylhydrazine, withOxygen}
